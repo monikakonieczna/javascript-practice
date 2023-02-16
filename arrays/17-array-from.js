@@ -3,9 +3,9 @@
  */
 
 const object = {
-    0: "ala",
-    1: "bella",
-    length: 2
-}
+  0: "ala",
+  1: "bella",
+  length: 2,
+};
 
 console.log(Array.from(object));

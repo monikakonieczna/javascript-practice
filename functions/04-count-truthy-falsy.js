@@ -9,18 +9,17 @@
  * NaN
  */
 
+const array = [0, 1, undefined, false, true, ""];
 
-const array = [0, 1, undefined, false, true, ''];
+function countTruthyValues(argArray) {
+  let truthyCount = 0;
 
-function countTruthyValues(argArray){
-    let truthyCount = 0;
-
-    for(let arg of argArray){
-        if(arg) {
-            truthyCount ++;        
-        }
+  for (let arg of argArray) {
+    if (arg) {
+      truthyCount++;
     }
-    return truthyCount;
+  }
+  return truthyCount;
 }
 
 let test = countTruthyValues(array);

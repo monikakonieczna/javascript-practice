@@ -7,25 +7,25 @@
  * 91% to 100% => A Grade
  */
 
-const marksArray = [55,45,87,99];
+const marksArray = [55, 45, 87, 99];
 
-function calculateAverage(argArray){
-    let total = 0;
-    for(let value of argArray){
-        total += value;
-    }
-    return (total/argArray.length)
+function calculateAverage(argArray) {
+  let total = 0;
+  for (let value of argArray) {
+    total += value;
+  }
+  return total / argArray.length;
 }
 
 console.log(calculateAverage(marksArray));
 
-function calculateGrade(argArray){
-    const average = calculateAverage(argArray)
+function calculateGrade(argArray) {
+  const average = calculateAverage(argArray);
 
-    if(average < 70) return grade='D';
-    if(average < 80) return grade='C';
-    if(average < 90) return grade='B';
-    if(average <= 100) return grade='A';
+  if (average < 70) return (grade = "D");
+  if (average < 80) return (grade = "C");
+  if (average < 90) return (grade = "B");
+  if (average <= 100) return (grade = "A");
 }
 
-console.log('Grade: ', calculateGrade(marksArray));
+console.log("Grade: ", calculateGrade(marksArray));

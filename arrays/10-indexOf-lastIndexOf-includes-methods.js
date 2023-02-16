@@ -18,8 +18,8 @@ console.log(array2.lastIndexOf(2)); //4
  */
 
 const array3 = ["Warsaw", "Wroclaw", "Szczecin"];
-if(array3.includes("Bialystok")){
-    console.log("Bialystok is included in the array")
+if (array3.includes("Bialystok")) {
+  console.log("Bialystok is included in the array");
 } else {
-    console.log("Bialystok is not included in the array")
+  console.log("Bialystok is not included in the array");
 }
