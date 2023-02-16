@@ -1,7 +1,7 @@
 /**
  * Task 13:
- * 
- * Write a JavaScript program to find the most frequent character in a given string. 
+ *
+ * Write a JavaScript program to find the most frequent character in a given string.
  */
 
-console.log("-----Solution A-----")
+console.log("-----Solution A-----");
