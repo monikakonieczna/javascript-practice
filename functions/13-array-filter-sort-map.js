@@ -1,5 +1,5 @@
 /**
- * Array: Filter the array of students with Higest Ranking, Sort on Ranking, finally Show the Names
+ * Filter the array of students with Higest Ranking, Sort on Ranking, finally Show the Names
  */
 
 const studentsArray = [
