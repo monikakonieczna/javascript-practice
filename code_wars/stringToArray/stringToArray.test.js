@@ -1,4 +1,4 @@
-import { assert as _assert, config } from "chai";
+import { assert as _assert } from "chai";
 const assert = _assert;
 import stringToArray from "./stringToArray";
 
